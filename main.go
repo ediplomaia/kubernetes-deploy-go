@@ -6,7 +6,7 @@ import (
 	"log"
 )
 
-const webContent = "maiacorp:v99"
+const webContent = "maiacorp:v90"
 
 func main() {
 	http.HandleFunc("/", helloHandler)
